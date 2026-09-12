@@ -1,0 +1,181 @@
+{
+  "directions": [
+    {
+      "feature": "credit_score",
+      "direction": "positive",
+      "correlation": 0.8958,
+      "mean_shap": 0.007349,
+      "mean_abs_shap": 0.190716,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "dti",
+      "direction": "negative",
+      "correlation": -0.9204,
+      "mean_shap": 0.002673,
+      "mean_abs_shap": 0.136019,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "loan_amount",
+      "direction": "positive",
+      "correlation": 0.7469,
+      "mean_shap": -0.011471,
+      "mean_abs_shap": 0.037239,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "age",
+      "direction": "positive",
+      "correlation": 0.5346,
+      "mean_shap": -0.002012,
+      "mean_abs_shap": 0.013922,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "income",
+      "direction": "positive",
+      "correlation": 0.7745,
+      "mean_shap": -0.000489,
+      "mean_abs_shap": 0.008135,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "coapplicant_income",
+      "direction": "positive",
+      "correlation": 0.494,
+      "mean_shap": 0.001384,
+      "mean_abs_shap": 0.004138,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "employment_years",
+      "direction": "positive",
+      "correlation": 0.6252,
+      "mean_shap": 1.1e-05,
+      "mean_abs_shap": 0.00143,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "home_ownership_Mortgage",
+      "direction": "positive",
+      "correlation": 0.383,
+      "mean_shap": 0.000481,
+      "mean_abs_shap": 0.001116,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "loan_term",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "home_ownership_Own",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "home_ownership_Rent",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "education_Graduate",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "education_Undergraduate",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "self_employed_No",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "self_employed_Yes",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "dependents_0",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "dependents_1",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "dependents_2",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "dependents_3+",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "property_area_Rural",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "property_area_Semiurban",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "property_area_Urban",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    }
+  ],
+  "total_features": 22
+}

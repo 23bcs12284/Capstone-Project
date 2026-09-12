@@ -1,0 +1,221 @@
+{
+  "directions": [
+    {
+      "feature": "dti_ratio",
+      "direction": "negative",
+      "correlation": -0.936,
+      "mean_shap": 0.003633,
+      "mean_abs_shap": 0.21516,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "credit_score",
+      "direction": "positive",
+      "correlation": 0.896,
+      "mean_shap": -0.066038,
+      "mean_abs_shap": 0.212654,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "previous_defaults",
+      "direction": "negative",
+      "correlation": -0.9385,
+      "mean_shap": -0.013443,
+      "mean_abs_shap": 0.078178,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "loan_purpose_Other",
+      "direction": "negative",
+      "correlation": -0.4761,
+      "mean_shap": -0.003243,
+      "mean_abs_shap": 0.004098,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "annual_income",
+      "direction": "positive",
+      "correlation": 0.7074,
+      "mean_shap": 0.001259,
+      "mean_abs_shap": 0.002454,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "age",
+      "direction": "positive",
+      "correlation": 0.5732,
+      "mean_shap": 1.8e-05,
+      "mean_abs_shap": 0.002029,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "loan_amount",
+      "direction": "neutral",
+      "correlation": -0.0376,
+      "mean_shap": -0.000389,
+      "mean_abs_shap": 0.000389,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "monthly_income",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "credit_history_length",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "num_credit_lines",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "interest_rate",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "years_at_job",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "loan_purpose_Debt Consolidation",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "loan_purpose_Education",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "loan_purpose_Home Improvement",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "loan_purpose_Medical",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "employment_status_Employed",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "employment_status_Retired",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "employment_status_Self-Employed",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "employment_status_Unemployed",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "has_cosigner_No",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "has_cosigner_Yes",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "loan_grade_A",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "loan_grade_B",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "loan_grade_C",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "loan_grade_D",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "loan_grade_E",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    }
+  ],
+  "total_features": 27
+}

@@ -1,0 +1,116 @@
+{
+  "features": [
+    {
+      "feature": "credit_score",
+      "importance": 0.13912058452306927,
+      "rank": 1
+    },
+    {
+      "feature": "dti",
+      "importance": 0.08161155691514738,
+      "rank": 2
+    },
+    {
+      "feature": "coapplicant_income",
+      "importance": 0.035124095720008804,
+      "rank": 3
+    },
+    {
+      "feature": "loan_term",
+      "importance": 0.03459074192886043,
+      "rank": 4
+    },
+    {
+      "feature": "income",
+      "importance": 0.032782373214736156,
+      "rank": 5
+    },
+    {
+      "feature": "age",
+      "importance": 0.030009507495285203,
+      "rank": 6
+    },
+    {
+      "feature": "home_ownership_Rent",
+      "importance": 0.02880234452454629,
+      "rank": 7
+    },
+    {
+      "feature": "loan_amount",
+      "importance": 0.025281436491921366,
+      "rank": 8
+    },
+    {
+      "feature": "employment_years",
+      "importance": 0.02028466280891675,
+      "rank": 9
+    },
+    {
+      "feature": "home_ownership_Own",
+      "importance": 0.011667800740937899,
+      "rank": 10
+    },
+    {
+      "feature": "education_Undergraduate",
+      "importance": 0.008654360840408028,
+      "rank": 11
+    },
+    {
+      "feature": "home_ownership_Mortgage",
+      "importance": 0.008017371134236817,
+      "rank": 12
+    },
+    {
+      "feature": "education_Graduate",
+      "importance": 0.006483996696220803,
+      "rank": 13
+    },
+    {
+      "feature": "dependents_0",
+      "importance": 0.002006979676015998,
+      "rank": 14
+    },
+    {
+      "feature": "dependents_3+",
+      "importance": 0.0019559509091660226,
+      "rank": 15
+    },
+    {
+      "feature": "property_area_Semiurban",
+      "importance": 0.0017945256573750428,
+      "rank": 16
+    },
+    {
+      "feature": "property_area_Urban",
+      "importance": 0.0017048147307044115,
+      "rank": 17
+    },
+    {
+      "feature": "property_area_Rural",
+      "importance": 0.001653572326686145,
+      "rank": 18
+    },
+    {
+      "feature": "dependents_1",
+      "importance": 0.0016293321090111086,
+      "rank": 19
+    },
+    {
+      "feature": "dependents_2",
+      "importance": 0.0015439674222139724,
+      "rank": 20
+    },
+    {
+      "feature": "self_employed_No",
+      "importance": 0.0009918519559025973,
+      "rank": 21
+    },
+    {
+      "feature": "self_employed_Yes",
+      "importance": 0.0008988676162095905,
+      "rank": 22
+    }
+  ],
+  "total_features": 22,
+  "method": "mean_absolute_shap"
+}

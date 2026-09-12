@@ -1,0 +1,61 @@
+version: '3.8'
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: loan_xai_postgres
+    restart: always
+    environment:
+      POSTGRES_DB: loan_db
+      POSTGRES_USER: postgres_admin
+      POSTGRES_PASSWORD: supersecretpassword123
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres_admin -d loan_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  backend:
+    build:
+      context: ..
+      dockerfile: deployment/Dockerfile
+    container_name: loan_xai_backend
+    restart: always
+    environment:
+      - DATABASE_URL=postgresql://postgres_admin:supersecretpassword123@db:5432/loan_db
+      - JWT_SECRET=productionjwtsecretkeychangeinprod4567890
+      - LOG_LEVEL=INFO
+    ports:
+      - "8000:8000"
+    depends_on:
+      db:
+        condition: service_healthy
+    volumes:
+      - ../models_saved:/app/models_saved
+      - ../artifacts:/app/artifacts
+      - ../dataset:/app/dataset
+
+  dashboard:
+    build:
+      context: ..
+      dockerfile: deployment/Dockerfile
+    container_name: loan_xai_dashboard
+    restart: always
+    command: ["streamlit", "run", "dashboard/app.py", "--server.port=8501", "--server.address=0.0.0.0"]
+    ports:
+      - "8501:8501"
+    environment:
+      - DATABASE_URL=postgresql://postgres_admin:supersecretpassword123@db:5432/loan_db
+    depends_on:
+      - backend
+    volumes:
+      - ../models_saved:/app/models_saved
+      - ../artifacts:/app/artifacts
+      - ../dataset:/app/dataset
+
+volumes:
+  postgres_data:

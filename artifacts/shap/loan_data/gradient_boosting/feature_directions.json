@@ -1,0 +1,181 @@
+{
+  "directions": [
+    {
+      "feature": "credit_score",
+      "direction": "positive",
+      "correlation": 0.9584,
+      "mean_shap": 0.123011,
+      "mean_abs_shap": 1.121383,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "dti",
+      "direction": "negative",
+      "correlation": -0.9681,
+      "mean_shap": 0.094435,
+      "mean_abs_shap": 0.79629,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "home_ownership_Rent",
+      "direction": "negative",
+      "correlation": -0.9588,
+      "mean_shap": 0.06764,
+      "mean_abs_shap": 0.324708,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "employment_years",
+      "direction": "positive",
+      "correlation": 0.917,
+      "mean_shap": 0.017265,
+      "mean_abs_shap": 0.201851,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "income",
+      "direction": "positive",
+      "correlation": 0.8729,
+      "mean_shap": 0.013747,
+      "mean_abs_shap": 0.199991,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "coapplicant_income",
+      "direction": "positive",
+      "correlation": 0.9519,
+      "mean_shap": 0.024133,
+      "mean_abs_shap": 0.186955,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "age",
+      "direction": "positive",
+      "correlation": 0.7747,
+      "mean_shap": 0.018308,
+      "mean_abs_shap": 0.173729,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "loan_amount",
+      "direction": "positive",
+      "correlation": 0.8094,
+      "mean_shap": -0.014529,
+      "mean_abs_shap": 0.167295,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "home_ownership_Own",
+      "direction": "positive",
+      "correlation": 0.9854,
+      "mean_shap": 0.032111,
+      "mean_abs_shap": 0.109859,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "education_Undergraduate",
+      "direction": "negative",
+      "correlation": -0.9364,
+      "mean_shap": 0.003258,
+      "mean_abs_shap": 0.072765,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "education_Graduate",
+      "direction": "positive",
+      "correlation": 0.9605,
+      "mean_shap": 0.002968,
+      "mean_abs_shap": 0.063356,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "dependents_3+",
+      "direction": "negative",
+      "correlation": -0.8324,
+      "mean_shap": -0.000602,
+      "mean_abs_shap": 0.005292,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "property_area_Semiurban",
+      "direction": "negative",
+      "correlation": -0.34,
+      "mean_shap": -0.000873,
+      "mean_abs_shap": 0.00507,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "property_area_Urban",
+      "direction": "negative",
+      "correlation": -0.528,
+      "mean_shap": -0.001984,
+      "mean_abs_shap": 0.005052,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "dependents_1",
+      "direction": "positive",
+      "correlation": 0.5044,
+      "mean_shap": 0.000133,
+      "mean_abs_shap": 0.004183,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "self_employed_No",
+      "direction": "positive",
+      "correlation": 0.7903,
+      "mean_shap": -0.000821,
+      "mean_abs_shap": 0.003503,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "loan_term",
+      "direction": "positive",
+      "correlation": 0.4672,
+      "mean_shap": -0.000422,
+      "mean_abs_shap": 0.00206,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "dependents_2",
+      "direction": "negative",
+      "correlation": -0.8875,
+      "mean_shap": 0.000258,
+      "mean_abs_shap": 0.001383,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "dependents_0",
+      "direction": "negative",
+      "correlation": -0.3027,
+      "mean_shap": 3e-06,
+      "mean_abs_shap": 1.1e-05,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "home_ownership_Mortgage",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "self_employed_Yes",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "property_area_Rural",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    }
+  ],
+  "total_features": 22
+}

@@ -1,0 +1,126 @@
+{
+  "features": [
+    {
+      "feature": "annual_income",
+      "importance": 0.11676851913837809,
+      "rank": 1
+    },
+    {
+      "feature": "fico_score",
+      "importance": 0.09356755566348754,
+      "rank": 2
+    },
+    {
+      "feature": "employment_length",
+      "importance": 0.047826938419123596,
+      "rank": 3
+    },
+    {
+      "feature": "monthly_debt",
+      "importance": 0.033207869917751556,
+      "rank": 4
+    },
+    {
+      "feature": "down_payment_pct",
+      "importance": 0.011979405721462517,
+      "rank": 5
+    },
+    {
+      "feature": "marital_status_Single",
+      "importance": 0.005815921948110227,
+      "rank": 6
+    },
+    {
+      "feature": "home_type_Condo",
+      "importance": 0.004201679446916531,
+      "rank": 7
+    },
+    {
+      "feature": "marital_status_Divorced",
+      "importance": 0.0033697443719231095,
+      "rank": 8
+    },
+    {
+      "feature": "home_type_Single Family",
+      "importance": 0.0029495090033157846,
+      "rank": 9
+    },
+    {
+      "feature": "loan_term_years",
+      "importance": 0.0028956005973178205,
+      "rank": 10
+    },
+    {
+      "feature": "education_level_Bachelor",
+      "importance": 0.0028432147891483146,
+      "rank": 11
+    },
+    {
+      "feature": "marital_status_Married",
+      "importance": 0.002559732508450116,
+      "rank": 12
+    },
+    {
+      "feature": "num_dependents",
+      "importance": 0.002553579797080194,
+      "rank": 13
+    },
+    {
+      "feature": "requested_amount",
+      "importance": 0.002493195331950726,
+      "rank": 14
+    },
+    {
+      "feature": "existing_mortgages",
+      "importance": 0.00239841573783183,
+      "rank": 15
+    },
+    {
+      "feature": "education_level_High School",
+      "importance": 0.002393529191216601,
+      "rank": 16
+    },
+    {
+      "feature": "property_value",
+      "importance": 0.002012688009631496,
+      "rank": 17
+    },
+    {
+      "feature": "loan_purpose_Refinance",
+      "importance": 0.0020109611277046593,
+      "rank": 18
+    },
+    {
+      "feature": "loan_purpose_Purchase",
+      "importance": 0.0019350147652894623,
+      "rank": 19
+    },
+    {
+      "feature": "education_level_Master",
+      "importance": 0.0017110723557168298,
+      "rank": 20
+    },
+    {
+      "feature": "loan_purpose_Home Improvement",
+      "importance": 0.0016299973989515144,
+      "rank": 21
+    },
+    {
+      "feature": "education_level_PhD",
+      "importance": 0.001552715561642342,
+      "rank": 22
+    },
+    {
+      "feature": "home_type_Townhouse",
+      "importance": 0.0008201775041348092,
+      "rank": 23
+    },
+    {
+      "feature": "home_type_Multi Family",
+      "importance": 0.0004511954431209097,
+      "rank": 24
+    }
+  ],
+  "total_features": 24,
+  "method": "mean_absolute_shap"
+}

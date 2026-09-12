@@ -1,0 +1,8 @@
+Model,ROC AUC,F1 Score,Accuracy,Precision,Recall,Best Params
+logistic_regression,0.9120992029817468,0.8594507269789984,0.826,0.83125,0.8896321070234113,"{'C': 1.0, 'penalty': 'l2', 'solver': 'lbfgs'}"
+catboost,0.9072280736784306,0.8531810766721044,0.82,0.8328025477707006,0.8745819397993311,"{'depth': 4, 'iterations': 100, 'learning_rate': 0.1, 'verbose': 0}"
+xgboost,0.9055932711026806,0.8552631578947368,0.824,0.8414239482200647,0.8695652173913043,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100, 'subsample': 0.8}"
+lightgbm,0.9017454533353301,0.8515497553017944,0.818,0.8312101910828026,0.8729096989966555,"{'learning_rate': 0.2, 'max_depth': 3, 'n_estimators': 50, 'num_leaves': 15}"
+gradient_boosting,0.8998777017920432,0.8504065040650407,0.816,0.8275316455696202,0.8745819397993311,"{'learning_rate': 0.1, 'max_depth': 3, 'n_estimators': 100}"
+random_forest,0.8931720993693739,0.8589951377633711,0.826,0.8333333333333334,0.8862876254180602,"{'max_depth': 10, 'min_samples_split': 5, 'n_estimators': 200}"
+decision_tree,0.8505008402802043,0.8258785942492013,0.782,0.790519877675841,0.8645484949832776,"{'criterion': 'entropy', 'max_depth': 5, 'min_samples_split': 2}"

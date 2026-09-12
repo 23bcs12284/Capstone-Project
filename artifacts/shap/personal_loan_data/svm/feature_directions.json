@@ -1,0 +1,221 @@
+{
+  "directions": [
+    {
+      "feature": "dti_ratio",
+      "direction": "negative",
+      "correlation": -0.9277,
+      "mean_shap": 0.155502,
+      "mean_abs_shap": 0.284982,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "credit_score",
+      "direction": "positive",
+      "correlation": 0.9455,
+      "mean_shap": -0.044369,
+      "mean_abs_shap": 0.151466,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "previous_defaults",
+      "direction": "negative",
+      "correlation": -0.9538,
+      "mean_shap": -0.046544,
+      "mean_abs_shap": 0.066966,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "monthly_income",
+      "direction": "positive",
+      "correlation": 0.8883,
+      "mean_shap": -0.006294,
+      "mean_abs_shap": 0.024652,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "annual_income",
+      "direction": "positive",
+      "correlation": 0.8869,
+      "mean_shap": -0.006266,
+      "mean_abs_shap": 0.02447,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "interest_rate",
+      "direction": "negative",
+      "correlation": -0.9019,
+      "mean_shap": -0.013031,
+      "mean_abs_shap": 0.021414,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "employment_status_Employed",
+      "direction": "positive",
+      "correlation": 0.8104,
+      "mean_shap": 0.000355,
+      "mean_abs_shap": 0.018515,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "age",
+      "direction": "positive",
+      "correlation": 0.784,
+      "mean_shap": -4.2e-05,
+      "mean_abs_shap": 0.010531,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "years_at_job",
+      "direction": "positive",
+      "correlation": 0.3398,
+      "mean_shap": -0.002931,
+      "mean_abs_shap": 0.006318,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "loan_grade_B",
+      "direction": "positive",
+      "correlation": 0.7982,
+      "mean_shap": 0.001924,
+      "mean_abs_shap": 0.005266,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "loan_grade_C",
+      "direction": "negative",
+      "correlation": -0.5582,
+      "mean_shap": -0.001947,
+      "mean_abs_shap": 0.00395,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "loan_amount",
+      "direction": "negative",
+      "correlation": -0.1199,
+      "mean_shap": -0.000493,
+      "mean_abs_shap": 0.003589,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "loan_grade_D",
+      "direction": "negative",
+      "correlation": -0.6582,
+      "mean_shap": -0.00237,
+      "mean_abs_shap": 0.003505,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "loan_purpose_Education",
+      "direction": "positive",
+      "correlation": 0.7665,
+      "mean_shap": 0.003432,
+      "mean_abs_shap": 0.003432,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "employment_status_Unemployed",
+      "direction": "negative",
+      "correlation": -0.8867,
+      "mean_shap": -0.003338,
+      "mean_abs_shap": 0.003338,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "has_cosigner_No",
+      "direction": "negative",
+      "correlation": -0.7053,
+      "mean_shap": 0.003182,
+      "mean_abs_shap": 0.003237,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "has_cosigner_Yes",
+      "direction": "positive",
+      "correlation": 0.7285,
+      "mean_shap": 0.003235,
+      "mean_abs_shap": 0.003235,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "num_credit_lines",
+      "direction": "negative",
+      "correlation": -0.2381,
+      "mean_shap": 0.001925,
+      "mean_abs_shap": 0.002834,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "loan_purpose_Medical",
+      "direction": "negative",
+      "correlation": -0.6647,
+      "mean_shap": -0.002027,
+      "mean_abs_shap": 0.002027,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "credit_history_length",
+      "direction": "negative",
+      "correlation": -0.3019,
+      "mean_shap": 0.000487,
+      "mean_abs_shap": 0.001524,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "employment_status_Self-Employed",
+      "direction": "negative",
+      "correlation": -0.6536,
+      "mean_shap": -0.000558,
+      "mean_abs_shap": 0.000843,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "loan_purpose_Debt Consolidation",
+      "direction": "negative",
+      "correlation": -0.1718,
+      "mean_shap": 0.000525,
+      "mean_abs_shap": 0.000611,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "loan_grade_A",
+      "direction": "positive",
+      "correlation": 0.7799,
+      "mean_shap": 0.000505,
+      "mean_abs_shap": 0.000505,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "employment_status_Retired",
+      "direction": "negative",
+      "correlation": -0.4177,
+      "mean_shap": 5e-06,
+      "mean_abs_shap": 0.000344,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "loan_purpose_Home Improvement",
+      "direction": "negative",
+      "correlation": -0.4641,
+      "mean_shap": 1.7e-05,
+      "mean_abs_shap": 0.00018,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "loan_grade_E",
+      "direction": "negative",
+      "correlation": -1.0,
+      "mean_shap": -0.000109,
+      "mean_abs_shap": 0.000109,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "loan_purpose_Other",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    }
+  ],
+  "total_features": 27
+}

@@ -1,0 +1,98 @@
+{
+  "gender": {
+    "overall_selection_rate": 0.6248,
+    "group_metrics": {
+      "Male": {
+        "sample_count": 2748,
+        "selection_rate": 0.6670305676855895,
+        "true_positive_rate": 0.9521690767519466,
+        "false_positive_rate": 0.12736842105263158,
+        "accuracy": 0.9246724890829694
+      },
+      "Female": {
+        "sample_count": 2252,
+        "selection_rate": 0.5732682060390764,
+        "true_positive_rate": 0.9521008403361344,
+        "false_positive_rate": 0.1487758945386064,
+        "accuracy": 0.9045293072824157
+      }
+    },
+    "demographic_parity_difference": 0.09376236164651319,
+    "demographic_parity_ratio": 0.8594331861404155,
+    "equal_opportunity_difference": 6.823641581221729e-05,
+    "recommendations": [
+      "Model meets standard fairness criteria for 'gender'."
+    ]
+  },
+  "age_group": {
+    "overall_selection_rate": 0.6248,
+    "group_metrics": {
+      "Middle-aged": {
+        "sample_count": 3548,
+        "selection_rate": 0.6507891770011274,
+        "true_positive_rate": 0.9481046931407943,
+        "false_positive_rate": 0.15615615615615616,
+        "accuracy": 0.9089627959413754
+      },
+      "Young": {
+        "sample_count": 921,
+        "selection_rate": 0.4180238870792617,
+        "true_positive_rate": 0.9324324324324325,
+        "false_positive_rate": 0.07259528130671507,
+        "accuracy": 0.9294245385450597
+      },
+      "Senior": {
+        "sample_count": 531,
+        "selection_rate": 0.8097928436911488,
+        "true_positive_rate": 0.9925373134328358,
+        "false_positive_rate": 0.24031007751937986,
+        "accuracy": 0.935969868173258
+      }
+    },
+    "demographic_parity_difference": 0.3917689566118871,
+    "demographic_parity_ratio": 0.516210893114158,
+    "equal_opportunity_difference": 0.06010488100040334,
+    "recommendations": [
+      "Significant bias detected against certain groups in 'age_group' (Demographic Parity Ratio is 0.52 < 0.8 threshold). Apply sample reweighing during preprocessing or adjust decision thresholds."
+    ]
+  },
+  "race": {
+    "overall_selection_rate": 0.6248,
+    "group_metrics": {
+      "Caucasian": {
+        "sample_count": 3024,
+        "selection_rate": 0.6623677248677249,
+        "true_positive_rate": 0.9518689196108551,
+        "false_positive_rate": 0.13445378151260504,
+        "accuracy": 0.9212962962962963
+      },
+      "Hispanic": {
+        "sample_count": 781,
+        "selection_rate": 0.6017925736235595,
+        "true_positive_rate": 0.9602803738317757,
+        "false_positive_rate": 0.1671388101983003,
+        "accuracy": 0.9026888604353394
+      },
+      "Asian": {
+        "sample_count": 523,
+        "selection_rate": 0.6061185468451242,
+        "true_positive_rate": 0.9308176100628931,
+        "false_positive_rate": 0.1024390243902439,
+        "accuracy": 0.9177820267686424
+      },
+      "African American": {
+        "sample_count": 672,
+        "selection_rate": 0.49702380952380953,
+        "true_positive_rate": 0.9653979238754326,
+        "false_positive_rate": 0.14360313315926893,
+        "accuracy": 0.9032738095238095
+      }
+    },
+    "demographic_parity_difference": 0.16534391534391535,
+    "demographic_parity_ratio": 0.7503744383424863,
+    "equal_opportunity_difference": 0.034580313812539454,
+    "recommendations": [
+      "Significant bias detected against certain groups in 'race' (Demographic Parity Ratio is 0.75 < 0.8 threshold). Apply sample reweighing during preprocessing or adjust decision thresholds."
+    ]
+  }
+}

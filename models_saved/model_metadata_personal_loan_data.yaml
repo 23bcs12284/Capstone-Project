@@ -1,0 +1,15 @@
+metrics:
+  accuracy: 0.915
+  brier_score: 0.05608542653479596
+  f1_score: 0.9337231968810916
+  pr_auc: 0.9890677671178246
+  precision: 0.9373776908023483
+  recall: 0.9300970873786408
+  roc_auc: 0.9794856072219383
+  sensitivity: 0.9300970873786408
+  specificity: 0.887719298245614
+model_name: logistic_regression
+params:
+  C: 1.0
+  penalty: l2
+  solver: lbfgs

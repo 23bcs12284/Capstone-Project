@@ -1,0 +1,197 @@
+{
+  "directions": [
+    {
+      "feature": "fico_score",
+      "direction": "positive",
+      "correlation": 0.9558,
+      "mean_shap": 0.213428,
+      "mean_abs_shap": 1.77669,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "annual_income",
+      "direction": "positive",
+      "correlation": 0.9429,
+      "mean_shap": 0.026459,
+      "mean_abs_shap": 1.570037,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "employment_length",
+      "direction": "positive",
+      "correlation": 0.9863,
+      "mean_shap": 0.034168,
+      "mean_abs_shap": 1.136925,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "monthly_debt",
+      "direction": "negative",
+      "correlation": -0.9778,
+      "mean_shap": 0.106052,
+      "mean_abs_shap": 0.952504,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "down_payment_pct",
+      "direction": "positive",
+      "correlation": 0.9586,
+      "mean_shap": -0.013057,
+      "mean_abs_shap": 0.305544,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "requested_amount",
+      "direction": "negative",
+      "correlation": -0.2992,
+      "mean_shap": -0.036876,
+      "mean_abs_shap": 0.051651,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "property_value",
+      "direction": "neutral",
+      "correlation": 0.078,
+      "mean_shap": 0.019983,
+      "mean_abs_shap": 0.044082,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "marital_status_Divorced",
+      "direction": "negative",
+      "correlation": -0.9193,
+      "mean_shap": 0.00264,
+      "mean_abs_shap": 0.035429,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "education_level_Bachelor",
+      "direction": "negative",
+      "correlation": -0.5843,
+      "mean_shap": 0.004154,
+      "mean_abs_shap": 0.032448,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "existing_mortgages",
+      "direction": "neutral",
+      "correlation": -0.0195,
+      "mean_shap": -0.003886,
+      "mean_abs_shap": 0.024176,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "num_dependents",
+      "direction": "positive",
+      "correlation": 0.2595,
+      "mean_shap": 0.00538,
+      "mean_abs_shap": 0.02329,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "marital_status_Single",
+      "direction": "negative",
+      "correlation": -0.1693,
+      "mean_shap": 0.001742,
+      "mean_abs_shap": 0.020993,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "marital_status_Married",
+      "direction": "neutral",
+      "correlation": -0.0601,
+      "mean_shap": 0.002305,
+      "mean_abs_shap": 0.019548,
+      "description": "No clear directional impact on approval"
+    },
+    {
+      "feature": "loan_purpose_Refinance",
+      "direction": "negative",
+      "correlation": -0.7442,
+      "mean_shap": 0.000439,
+      "mean_abs_shap": 0.017649,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "home_type_Condo",
+      "direction": "negative",
+      "correlation": -0.7212,
+      "mean_shap": 0.00054,
+      "mean_abs_shap": 0.016225,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "loan_term_years",
+      "direction": "positive",
+      "correlation": 0.5145,
+      "mean_shap": 0.004424,
+      "mean_abs_shap": 0.012986,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "education_level_High School",
+      "direction": "negative",
+      "correlation": -0.124,
+      "mean_shap": -0.002159,
+      "mean_abs_shap": 0.011324,
+      "description": "Higher values decrease approval probability"
+    },
+    {
+      "feature": "education_level_Master",
+      "direction": "positive",
+      "correlation": 0.8932,
+      "mean_shap": -0.000502,
+      "mean_abs_shap": 0.010383,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "home_type_Single Family",
+      "direction": "positive",
+      "correlation": 0.4868,
+      "mean_shap": -0.002789,
+      "mean_abs_shap": 0.010236,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "home_type_Townhouse",
+      "direction": "positive",
+      "correlation": 0.9155,
+      "mean_shap": 0.000354,
+      "mean_abs_shap": 0.004906,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "loan_purpose_Home Improvement",
+      "direction": "positive",
+      "correlation": 0.1788,
+      "mean_shap": -0.002646,
+      "mean_abs_shap": 0.004511,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "home_type_Multi Family",
+      "direction": "positive",
+      "correlation": 0.188,
+      "mean_shap": 7.1e-05,
+      "mean_abs_shap": 0.003293,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "education_level_PhD",
+      "direction": "positive",
+      "correlation": 0.7376,
+      "mean_shap": 0.001241,
+      "mean_abs_shap": 0.003024,
+      "description": "Higher values increase approval probability"
+    },
+    {
+      "feature": "loan_purpose_Purchase",
+      "direction": "neutral",
+      "correlation": 0.0,
+      "mean_shap": 0.0,
+      "mean_abs_shap": 0.0,
+      "description": "No clear directional impact on approval"
+    }
+  ],
+  "total_features": 24
+}

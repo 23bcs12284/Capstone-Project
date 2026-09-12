@@ -1,0 +1,126 @@
+{
+  "features": [
+    {
+      "feature": "fico_score",
+      "importance": 1.25309791570855,
+      "rank": 1
+    },
+    {
+      "feature": "annual_income",
+      "importance": 1.14972435047247,
+      "rank": 2
+    },
+    {
+      "feature": "employment_length",
+      "importance": 0.6320047072398799,
+      "rank": 3
+    },
+    {
+      "feature": "monthly_debt",
+      "importance": 0.5396083316851586,
+      "rank": 4
+    },
+    {
+      "feature": "down_payment_pct",
+      "importance": 0.11595329128613312,
+      "rank": 5
+    },
+    {
+      "feature": "requested_amount",
+      "importance": 0.010992654750182691,
+      "rank": 6
+    },
+    {
+      "feature": "marital_status_Single",
+      "importance": 0.005743066030996705,
+      "rank": 7
+    },
+    {
+      "feature": "property_value",
+      "importance": 0.001033127785772062,
+      "rank": 8
+    },
+    {
+      "feature": "loan_purpose_Home Improvement",
+      "importance": 0.0,
+      "rank": 9
+    },
+    {
+      "feature": "loan_term_years",
+      "importance": 0.0,
+      "rank": 10
+    },
+    {
+      "feature": "existing_mortgages",
+      "importance": 0.0,
+      "rank": 11
+    },
+    {
+      "feature": "num_dependents",
+      "importance": 0.0,
+      "rank": 12
+    },
+    {
+      "feature": "education_level_PhD",
+      "importance": 0.0,
+      "rank": 13
+    },
+    {
+      "feature": "education_level_Master",
+      "importance": 0.0,
+      "rank": 14
+    },
+    {
+      "feature": "loan_purpose_Refinance",
+      "importance": 0.0,
+      "rank": 15
+    },
+    {
+      "feature": "home_type_Condo",
+      "importance": 0.0,
+      "rank": 16
+    },
+    {
+      "feature": "home_type_Multi Family",
+      "importance": 0.0,
+      "rank": 17
+    },
+    {
+      "feature": "home_type_Single Family",
+      "importance": 0.0,
+      "rank": 18
+    },
+    {
+      "feature": "home_type_Townhouse",
+      "importance": 0.0,
+      "rank": 19
+    },
+    {
+      "feature": "marital_status_Divorced",
+      "importance": 0.0,
+      "rank": 20
+    },
+    {
+      "feature": "marital_status_Married",
+      "importance": 0.0,
+      "rank": 21
+    },
+    {
+      "feature": "education_level_Bachelor",
+      "importance": 0.0,
+      "rank": 22
+    },
+    {
+      "feature": "education_level_High School",
+      "importance": 0.0,
+      "rank": 23
+    },
+    {
+      "feature": "loan_purpose_Purchase",
+      "importance": 0.0,
+      "rank": 24
+    }
+  ],
+  "total_features": 24,
+  "method": "mean_absolute_shap"
+}

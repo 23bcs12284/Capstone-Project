@@ -1,0 +1,141 @@
+{
+  "features": [
+    {
+      "feature": "dti_ratio",
+      "importance": 0.2844317194380121,
+      "rank": 1
+    },
+    {
+      "feature": "credit_score",
+      "importance": 0.15190682749739876,
+      "rank": 2
+    },
+    {
+      "feature": "previous_defaults",
+      "importance": 0.06645977594327604,
+      "rank": 3
+    },
+    {
+      "feature": "annual_income",
+      "importance": 0.024443179226643838,
+      "rank": 4
+    },
+    {
+      "feature": "monthly_income",
+      "importance": 0.024164672013449993,
+      "rank": 5
+    },
+    {
+      "feature": "interest_rate",
+      "importance": 0.02175008519589792,
+      "rank": 6
+    },
+    {
+      "feature": "employment_status_Employed",
+      "importance": 0.017987213400541692,
+      "rank": 7
+    },
+    {
+      "feature": "age",
+      "importance": 0.010447777815080474,
+      "rank": 8
+    },
+    {
+      "feature": "years_at_job",
+      "importance": 0.007079757601000496,
+      "rank": 9
+    },
+    {
+      "feature": "loan_grade_B",
+      "importance": 0.005709102678639424,
+      "rank": 10
+    },
+    {
+      "feature": "loan_grade_D",
+      "importance": 0.0036292299658040846,
+      "rank": 11
+    },
+    {
+      "feature": "loan_grade_C",
+      "importance": 0.003589907622542757,
+      "rank": 12
+    },
+    {
+      "feature": "loan_purpose_Education",
+      "importance": 0.0035084707875708016,
+      "rank": 13
+    },
+    {
+      "feature": "has_cosigner_Yes",
+      "importance": 0.003476107141324848,
+      "rank": 14
+    },
+    {
+      "feature": "employment_status_Unemployed",
+      "importance": 0.0033557373123832977,
+      "rank": 15
+    },
+    {
+      "feature": "loan_amount",
+      "importance": 0.003181834045422023,
+      "rank": 16
+    },
+    {
+      "feature": "has_cosigner_No",
+      "importance": 0.003137789292997168,
+      "rank": 17
+    },
+    {
+      "feature": "num_credit_lines",
+      "importance": 0.0029752374815389887,
+      "rank": 18
+    },
+    {
+      "feature": "loan_purpose_Medical",
+      "importance": 0.0024053592235115853,
+      "rank": 19
+    },
+    {
+      "feature": "credit_history_length",
+      "importance": 0.0010137879820576727,
+      "rank": 20
+    },
+    {
+      "feature": "loan_purpose_Debt Consolidation",
+      "importance": 0.0009986543569850163,
+      "rank": 21
+    },
+    {
+      "feature": "employment_status_Self-Employed",
+      "importance": 0.0007285095591518729,
+      "rank": 22
+    },
+    {
+      "feature": "loan_grade_A",
+      "importance": 0.0005140299171482842,
+      "rank": 23
+    },
+    {
+      "feature": "employment_status_Retired",
+      "importance": 0.00029453058373539123,
+      "rank": 24
+    },
+    {
+      "feature": "loan_grade_E",
+      "importance": 0.0001572046521621462,
+      "rank": 25
+    },
+    {
+      "feature": "loan_purpose_Home Improvement",
+      "importance": 9.057457865210505e-05,
+      "rank": 26
+    },
+    {
+      "feature": "loan_purpose_Other",
+      "importance": 0.0,
+      "rank": 27
+    }
+  ],
+  "total_features": 27,
+  "method": "mean_absolute_shap"
+}

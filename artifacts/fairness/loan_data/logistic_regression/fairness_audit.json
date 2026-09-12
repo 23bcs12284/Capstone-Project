@@ -1,0 +1,99 @@
+{
+  "gender": {
+    "overall_selection_rate": 0.6246,
+    "group_metrics": {
+      "Male": {
+        "sample_count": 2748,
+        "selection_rate": 0.6495633187772926,
+        "true_positive_rate": 0.8704115684093437,
+        "false_positive_rate": 0.23157894736842105,
+        "accuracy": 0.8351528384279476
+      },
+      "Female": {
+        "sample_count": 2252,
+        "selection_rate": 0.5941385435168739,
+        "true_positive_rate": 0.8613445378151261,
+        "false_positive_rate": 0.2947269303201507,
+        "accuracy": 0.7877442273534636
+      }
+    },
+    "demographic_parity_difference": 0.05542477526041867,
+    "demographic_parity_ratio": 0.9146737913637925,
+    "equal_opportunity_difference": 0.009067030594217651,
+    "recommendations": [
+      "Model meets standard fairness criteria for 'gender'."
+    ]
+  },
+  "age_group": {
+    "overall_selection_rate": 0.6246,
+    "group_metrics": {
+      "Middle-aged": {
+        "sample_count": 3548,
+        "selection_rate": 0.6406426155580609,
+        "true_positive_rate": 0.8610108303249098,
+        "false_positive_rate": 0.27402402402402404,
+        "accuracy": 0.810315670800451
+      },
+      "Young": {
+        "sample_count": 921,
+        "selection_rate": 0.44625407166123776,
+        "true_positive_rate": 0.8135135135135135,
+        "false_positive_rate": 0.1996370235934664,
+        "accuracy": 0.8056460369163952
+      },
+      "Senior": {
+        "sample_count": 531,
+        "selection_rate": 0.8267419962335216,
+        "true_positive_rate": 0.9477611940298507,
+        "false_positive_rate": 0.4496124031007752,
+        "accuracy": 0.8512241054613936
+      }
+    },
+    "demographic_parity_difference": 0.38048792457228386,
+    "demographic_parity_ratio": 0.5397742871346635,
+    "equal_opportunity_difference": 0.13424768051633718,
+    "recommendations": [
+      "Significant bias detected against certain groups in 'age_group' (Demographic Parity Ratio is 0.54 < 0.8 threshold). Apply sample reweighing during preprocessing or adjust decision thresholds.",
+      "Model shows unequal error rates across groups in 'age_group' (Equal Opportunity Difference is 0.13 > 0.1). Recommend post-processing threshold adjustments to equalize True Positive Rates."
+    ]
+  },
+  "race": {
+    "overall_selection_rate": 0.6246,
+    "group_metrics": {
+      "Caucasian": {
+        "sample_count": 3024,
+        "selection_rate": 0.6428571428571429,
+        "true_positive_rate": 0.855094726062468,
+        "false_positive_rate": 0.25583566760037346,
+        "accuracy": 0.8158068783068783
+      },
+      "Hispanic": {
+        "sample_count": 781,
+        "selection_rate": 0.6133162612035852,
+        "true_positive_rate": 0.8948598130841121,
+        "false_positive_rate": 0.2719546742209632,
+        "accuracy": 0.8194622279129321
+      },
+      "Asian": {
+        "sample_count": 523,
+        "selection_rate": 0.6080305927342257,
+        "true_positive_rate": 0.8616352201257862,
+        "false_positive_rate": 0.2146341463414634,
+        "accuracy": 0.8317399617590823
+      },
+      "African American": {
+        "sample_count": 672,
+        "selection_rate": 0.5684523809523809,
+        "true_positive_rate": 0.9100346020761245,
+        "false_positive_rate": 0.31070496083550914,
+        "accuracy": 0.7842261904761905
+      }
+    },
+    "demographic_parity_difference": 0.07440476190476197,
+    "demographic_parity_ratio": 0.8842592592592592,
+    "equal_opportunity_difference": 0.054939876013656574,
+    "recommendations": [
+      "Model meets standard fairness criteria for 'race'."
+    ]
+  }
+}

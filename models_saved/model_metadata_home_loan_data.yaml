@@ -1,0 +1,16 @@
+metrics:
+  accuracy: 0.9114285714285715
+  brier_score: 0.06608241721459424
+  f1_score: 0.9327548806941431
+  pr_auc: 0.9835254893561953
+  precision: 0.9188034188034188
+  recall: 0.947136563876652
+  roc_auc: 0.9695927796282368
+  sensitivity: 0.947136563876652
+  specificity: 0.8455284552845529
+model_name: catboost
+params:
+  depth: 4
+  iterations: 100
+  learning_rate: 0.1
+  verbose: 0
