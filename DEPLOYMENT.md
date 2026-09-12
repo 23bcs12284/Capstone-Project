@@ -1,94 +1,65 @@
-# Production Deployment Guide - LoanAI Decision Platform
+# Deployment Guide - Render.com & Cloud Platforms
 
-This repository is pre-configured and deployment-ready for **Railway**, **Render**, **Fly.io**, **AWS App Runner**, or **Self-Hosted Docker Containers**.
-
----
-
-## 1. Quick Local Docker Deployment
-
-### Build the Production Image
-```bash
-docker build -t loanai-platform:latest .
-```
-
-### Run the Container
-```bash
-docker run -d -p 8000:8000 --name loanai-app loanai-platform:latest
-```
-Access the application at: `http://localhost:8000`
-
-### Multi-Container Stack (FastAPI + PostgreSQL DB)
-```bash
-docker-compose -f deployment/docker-compose.yml up -d
-```
+This project is pre-configured with a `render.yaml` Blueprint and Dockerfile for **Render.com**, **Railway**, and **Docker**.
 
 ---
 
-## 2. Deploying to Railway (Step-by-Step)
+## 🚀 How to Deploy on Render.com (Step-by-Step)
 
-Railway provides one-click Docker deployments with automatic HTTPS and dynamic port management.
+### Option 1: Render Blueprint (Easiest - 1 Click)
 
-### Method A: One-Click Deploy via GitHub (Recommended)
-
-1. **Push your project to GitHub**:
+1. **Push code to GitHub**:
    ```bash
    git add .
-   git commit -m "Configure production Docker and Railway deployment"
+   git commit -m "Configure Render.com deployment"
    git push origin main
    ```
 
-2. **Connect to Railway**:
-   - Go to [Railway.app](https://railway.app) and sign in.
-   - Click **+ New Project**.
-   - Select **Deploy from GitHub repo**.
-   - Choose your repository (`Capstone_project`).
+2. **Connect to Render**:
+   - Go to **[dashboard.render.com](https://dashboard.render.com)**.
+   - Click **New +** $\rightarrow$ **Blueprints**.
+   - Connect your GitHub account and select your repository (`Capstone_project`).
 
-3. **Automatic Detection**:
-   - Railway automatically detects the root [`Dockerfile`](file:///Users/prabhakarkumarjha/Desktop/Capstone_project/Dockerfile) and [`railway.json`](file:///Users/prabhakarkumarjha/Desktop/Capstone_project/railway.json).
-   - Railway dynamically sets the `$PORT` environment variable and routes traffic to the container.
-
-4. **Generate Public Domain**:
-   - In Railway dashboard, go to **Settings** -> **Networking** -> **Generate Domain**.
-   - Your web application will be live at `https://<your-project>.up.railway.app`.
+3. **Deploy**:
+   - Render automatically reads [`render.yaml`](file:///Users/prabhakarkumarjha/Desktop/Capstone_project/render.yaml) and configures the Docker Web Service.
+   - Click **Approve**.
+   - Render will build your Docker image and assign a public URL (e.g. `https://loanai-decision-platform.onrender.com`).
 
 ---
 
-### Method B: Deploy via Railway CLI
+### Option 2: Manual Web Service Setup on Render
 
-1. **Install Railway CLI**:
-   ```bash
-   npm i -g @railway/cli
-   ```
+If you prefer setting up manually without Blueprints:
 
-2. **Login & Initialize**:
-   ```bash
-   railway login
-   railway init
-   ```
-
-3. **Deploy Container**:
-   ```bash
-   railway up
-   ```
+1. Click **New +** $\rightarrow$ **Web Service** on Render.
+2. Select your GitHub repository (`Capstone_project`).
+3. Select **Language**: `Docker`.
+4. **Dockerfile Path**: `Dockerfile` (default).
+5. **Health Check Path**: `/health`.
+6. Click **Create Web Service**.
 
 ---
 
-## 3. Environment Variables Reference
+## 🛠️ Local Docker Testing
 
-| Variable Name | Default Value | Description |
+```bash
+# Build Docker Image
+docker build -t loanai-app:latest .
+
+# Test Container Locally on Port 8000
+docker run -d -p 8000:8000 --name loanai-container loanai-app:latest
+
+# Check Logs
+docker logs -f loanai-container
+```
+
+---
+
+## 📋 Environment Variables Configured on Render
+
+| Key | Default Value | Description |
 |---|---|---|
-| `PORT` | `8000` | Dynamic port injected by cloud platform (Railway/Render) |
-| `ENVIRONMENT` | `production` | Deployment stage (`development` or `production`) |
-| `LOG_LEVEL` | `INFO` | Logging level (`DEBUG`, `INFO`, `WARNING`, `ERROR`) |
-| `DATABASE_URL` | `sqlite:///./loan_approval.db` | Database connection string (SQLite by default, or PostgreSQL) |
-| `JWT_SECRET` | `production-secret-key-change-in-prod` | Secret key for JWT authentication tokens |
-
----
-
-## 4. Health Check & API Verification
-
-Once deployed, verify container status using:
-- **Health Check**: `GET /health`
-- **Web Dashboard**: `GET /`
-- **Interactive OpenAPI Specs**: `GET /docs`
-- **Prediction Endpoint**: `POST /api/predict`
+| `PORT` | `10000` | Render injects this automatically |
+| `ENVIRONMENT` | `production` | Production mode |
+| `LOG_LEVEL` | `INFO` | Logging level |
+| `JWT_SECRET` | *(Auto-generated)* | Render generates a secure random secret |

@@ -18,7 +18,7 @@ from config.settings import settings
 from dashboard.components import apply_custom_css, render_kpi_card, render_status_badge
 
 # Backend API Configuration
-API_BASE_URL = "http://localhost:8000"
+API_BASE_URL = os.getenv("API_BASE_URL", f"http://localhost:{settings.PORT}")
 
 st.set_page_config(
     page_title="Explainable AI Loan Approval System",

@@ -1,8 +1,10 @@
 #!/bin/sh
 set -e
 
-# Resolve port from Railway/cloud environment variable, fallback to 8000
-PORT="${PORT:-8000}"
+# Extract PORT from Render/Railway/Cloud environment, fallback to 8000
+if [ -z "$PORT" ]; then
+  PORT=8000
+fi
 
 echo "=========================================================="
 echo "🚀 Launching LoanAI Decision Platform on Port $PORT"

@@ -29,8 +29,9 @@ class AppState {
 
 // API Client
 class ApiClient {
-    constructor(baseUrl = 'http://localhost:8000') {
-        this.baseUrl = baseUrl;
+    constructor(baseUrl) {
+        // Dynamically resolve current origin for deployment (Render, Railway, localhost)
+        this.baseUrl = (baseUrl || (typeof window !== 'undefined' ? window.location.origin : '')).replace(/\/+$/, '');
     }
 
     async request(path, options = {}) {
