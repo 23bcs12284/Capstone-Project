@@ -101,12 +101,24 @@ class Router {
     }
 
     updateActiveNav(hash) {
+        // Desktop sidebar nav
         document.querySelectorAll('.sidebar-nav .nav-item').forEach(el => {
             el.classList.remove('active');
             if (el.getAttribute('href') === `#${hash}`) {
                 el.classList.add('active');
             }
         });
+
+        // Mobile bottom nav
+        document.querySelectorAll('.mobile-nav .mobile-nav-item').forEach(el => {
+            el.classList.remove('active');
+            if (el.getAttribute('data-hash') === hash || el.getAttribute('href') === `#${hash}`) {
+                el.classList.add('active');
+            }
+        });
+
+        // Close mobile drawer on route change
+        closeMobileMenu();
     }
 }
 
@@ -120,6 +132,22 @@ window.charts = {};
 function toggleSidebar() {
     const sidebar = document.getElementById('sidebar');
     if (sidebar) sidebar.classList.toggle('collapsed');
+}
+
+function toggleMobileMenu() {
+    const sidebar = document.getElementById('sidebar');
+    const overlay = document.getElementById('sidebar-overlay');
+    if (sidebar && overlay) {
+        sidebar.classList.toggle('mobile-open');
+        overlay.classList.toggle('active');
+    }
+}
+
+function closeMobileMenu() {
+    const sidebar = document.getElementById('sidebar');
+    const overlay = document.getElementById('sidebar-overlay');
+    if (sidebar) sidebar.classList.remove('mobile-open');
+    if (overlay) overlay.classList.remove('active');
 }
 
 function showLoading() {
