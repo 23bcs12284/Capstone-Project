@@ -26,6 +26,9 @@ RUN pip install --no-cache-dir --upgrade pip && \
 # Copy all project code and pre-trained model artifacts
 COPY . /app/
 
+# Make entrypoint script executable
+RUN chmod +x /app/scripts/entrypoint.sh
+
 # Expose port (default 8000, dynamic on Railway)
 EXPOSE 8000
 
@@ -33,5 +36,5 @@ EXPOSE 8000
 HEALTHCHECK --interval=30s --timeout=5s --start-period=10s --retries=3 \
   CMD curl -f http://localhost:${PORT:-8000}/health || exit 1
 
-# Run FastAPI backend with dynamic Railway PORT binding
-CMD ["sh", "-c", "uvicorn backend.main:app --host 0.0.0.0 --port ${PORT:-8000}"]
+# Run entrypoint script
+CMD ["/app/scripts/entrypoint.sh"]
