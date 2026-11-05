@@ -4,6 +4,7 @@ import time
 from datetime import datetime
 from typing import Dict, Any, List, Optional
 from pathlib import Path
+from models.model_registry import to_relative_path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 EXPERIMENTS_DIR = BASE_DIR / "artifacts" / "experiments"
@@ -18,7 +19,11 @@ class ExperimentTracker:
         try:
             if self.experiments_file.exists():
                 with open(self.experiments_file, 'r') as f:
-                    return json.load(f)
+                    data = json.load(f)
+                for e in data:
+                    if 'model_file_path' in e:
+                        e['model_file_path'] = to_relative_path(e.get('model_file_path'))
+                return data
         except Exception as e:
             print(f"Error loading experiments: {e}")
         return []
@@ -60,7 +65,7 @@ class ExperimentTracker:
             "cv_std": cv_std,
             "training_time": round(training_time, 4),
             "prediction_time": round(prediction_time, 6),
-            "model_file_path": model_file_path,
+            "model_file_path": to_relative_path(model_file_path),
             "features_used": features_used,
             "timestamp": datetime.now().isoformat(),
             "model_version": f"{model_name}_v{exp_id}"

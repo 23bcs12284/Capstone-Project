@@ -3,7 +3,7 @@
     "dataset_id": "loan_data",
     "model_name": "logistic_regression",
     "model_version": "logistic_regression_v6",
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/loan_data/logistic_regression.pkl",
+    "model_file_path": "models_saved/loan_data/logistic_regression.pkl",
     "metrics": {
       "accuracy": 0.818,
       "precision": 0.825,
@@ -44,15 +44,15 @@
       "property_area_Semiurban",
       "property_area_Urban"
     ],
-    "scaler_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/scaler_loan_data.pkl",
-    "cleaner_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/cleaner_loan_data.pkl",
+    "scaler_path": "models_saved/scaler_loan_data.pkl",
+    "cleaner_path": "models_saved/cleaner_loan_data.pkl",
     "status": "registered"
   },
   {
     "dataset_id": "loan_data",
     "model_name": "decision_tree",
     "model_version": "decision_tree_v6",
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/loan_data/decision_tree.pkl",
+    "model_file_path": "models_saved/loan_data/decision_tree.pkl",
     "metrics": {
       "accuracy": 0.787,
       "precision": 0.7975270479134466,
@@ -93,15 +93,15 @@
       "property_area_Semiurban",
       "property_area_Urban"
     ],
-    "scaler_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/scaler_loan_data.pkl",
-    "cleaner_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/cleaner_loan_data.pkl",
+    "scaler_path": "models_saved/scaler_loan_data.pkl",
+    "cleaner_path": "models_saved/cleaner_loan_data.pkl",
     "status": "registered"
   },
   {
     "dataset_id": "loan_data",
     "model_name": "random_forest",
     "model_version": "random_forest_v6",
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/loan_data/random_forest.pkl",
+    "model_file_path": "models_saved/loan_data/random_forest.pkl",
     "metrics": {
       "accuracy": 0.806,
       "precision": 0.8126934984520123,
@@ -142,15 +142,15 @@
       "property_area_Semiurban",
       "property_area_Urban"
     ],
-    "scaler_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/scaler_loan_data.pkl",
-    "cleaner_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/cleaner_loan_data.pkl",
+    "scaler_path": "models_saved/scaler_loan_data.pkl",
+    "cleaner_path": "models_saved/cleaner_loan_data.pkl",
     "status": "registered"
   },
   {
     "dataset_id": "loan_data",
     "model_name": "gradient_boosting",
     "model_version": "gradient_boosting_v6",
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/loan_data/gradient_boosting.pkl",
+    "model_file_path": "models_saved/loan_data/gradient_boosting.pkl",
     "metrics": {
       "accuracy": 0.805,
       "precision": 0.8163265306122449,
@@ -191,15 +191,15 @@
       "property_area_Semiurban",
       "property_area_Urban"
     ],
-    "scaler_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/scaler_loan_data.pkl",
-    "cleaner_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/cleaner_loan_data.pkl",
+    "scaler_path": "models_saved/scaler_loan_data.pkl",
+    "cleaner_path": "models_saved/cleaner_loan_data.pkl",
     "status": "registered"
   },
   {
     "dataset_id": "loan_data",
     "model_name": "xgboost",
     "model_version": "xgboost_v6",
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/loan_data/xgboost.pkl",
+    "model_file_path": "models_saved/loan_data/xgboost.pkl",
     "metrics": {
       "accuracy": 0.807,
       "precision": 0.8178963893249608,
@@ -240,15 +240,15 @@
       "property_area_Semiurban",
       "property_area_Urban"
     ],
-    "scaler_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/scaler_loan_data.pkl",
-    "cleaner_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/cleaner_loan_data.pkl",
+    "scaler_path": "models_saved/scaler_loan_data.pkl",
+    "cleaner_path": "models_saved/cleaner_loan_data.pkl",
     "status": "registered"
   },
   {
     "dataset_id": "loan_data",
     "model_name": "lightgbm",
     "model_version": "lightgbm_v5",
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/loan_data/lightgbm.pkl",
+    "model_file_path": "models_saved/loan_data/lightgbm.pkl",
     "metrics": {
       "accuracy": 0.81,
       "precision": 0.8197492163009404,
@@ -289,15 +289,15 @@
       "property_area_Semiurban",
       "property_area_Urban"
     ],
-    "scaler_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/scaler_loan_data.pkl",
-    "cleaner_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/cleaner_loan_data.pkl",
+    "scaler_path": "models_saved/scaler_loan_data.pkl",
+    "cleaner_path": "models_saved/cleaner_loan_data.pkl",
     "status": "registered"
   },
   {
     "dataset_id": "loan_data",
     "model_name": "catboost",
     "model_version": "catboost_v5",
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/loan_data/catboost.pkl",
+    "model_file_path": "models_saved/loan_data/catboost.pkl",
     "metrics": {
       "accuracy": 0.805,
       "precision": 0.8213716108452951,
@@ -339,15 +339,15 @@
       "property_area_Semiurban",
       "property_area_Urban"
     ],
-    "scaler_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/scaler_loan_data.pkl",
-    "cleaner_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/cleaner_loan_data.pkl",
+    "scaler_path": "models_saved/scaler_loan_data.pkl",
+    "cleaner_path": "models_saved/cleaner_loan_data.pkl",
     "status": "registered"
   },
   {
     "dataset_id": "loan_data",
     "model_name": "svm",
     "model_version": "svm_v5",
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/loan_data/svm.pkl",
+    "model_file_path": "models_saved/loan_data/svm.pkl",
     "metrics": {
       "accuracy": 0.813,
       "precision": 0.8226059654631083,
@@ -387,15 +387,15 @@
       "property_area_Semiurban",
       "property_area_Urban"
     ],
-    "scaler_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/scaler_loan_data.pkl",
-    "cleaner_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/cleaner_loan_data.pkl",
+    "scaler_path": "models_saved/scaler_loan_data.pkl",
+    "cleaner_path": "models_saved/cleaner_loan_data.pkl",
     "status": "registered"
   },
   {
     "dataset_id": "loan_data",
     "model_name": "extra_trees",
     "model_version": "extra_trees_v5",
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/loan_data/extra_trees.pkl",
+    "model_file_path": "models_saved/loan_data/extra_trees.pkl",
     "metrics": {
       "accuracy": 0.797,
       "precision": 0.7793493635077794,
@@ -436,15 +436,15 @@
       "property_area_Semiurban",
       "property_area_Urban"
     ],
-    "scaler_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/scaler_loan_data.pkl",
-    "cleaner_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/cleaner_loan_data.pkl",
+    "scaler_path": "models_saved/scaler_loan_data.pkl",
+    "cleaner_path": "models_saved/cleaner_loan_data.pkl",
     "status": "registered"
   },
   {
     "dataset_id": "home_loan_data",
     "model_name": "logistic_regression",
     "model_version": "logistic_regression_v5",
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/home_loan_data/logistic_regression.pkl",
+    "model_file_path": "models_saved/home_loan_data/logistic_regression.pkl",
     "metrics": {
       "accuracy": 0.9028571428571428,
       "precision": 0.9195652173913044,
@@ -487,15 +487,15 @@
       "education_level_Master",
       "education_level_PhD"
     ],
-    "scaler_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/scaler_home_loan_data.pkl",
-    "cleaner_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/cleaner_home_loan_data.pkl",
+    "scaler_path": "models_saved/scaler_home_loan_data.pkl",
+    "cleaner_path": "models_saved/cleaner_home_loan_data.pkl",
     "status": "registered"
   },
   {
     "dataset_id": "home_loan_data",
     "model_name": "decision_tree",
     "model_version": "decision_tree_v5",
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/home_loan_data/decision_tree.pkl",
+    "model_file_path": "models_saved/home_loan_data/decision_tree.pkl",
     "metrics": {
       "accuracy": 0.88,
       "precision": 0.8854166666666666,
@@ -538,15 +538,15 @@
       "education_level_Master",
       "education_level_PhD"
     ],
-    "scaler_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/scaler_home_loan_data.pkl",
-    "cleaner_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/cleaner_home_loan_data.pkl",
+    "scaler_path": "models_saved/scaler_home_loan_data.pkl",
+    "cleaner_path": "models_saved/cleaner_home_loan_data.pkl",
     "status": "registered"
   },
   {
     "dataset_id": "home_loan_data",
     "model_name": "random_forest",
     "model_version": "random_forest_v5",
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/home_loan_data/random_forest.pkl",
+    "model_file_path": "models_saved/home_loan_data/random_forest.pkl",
     "metrics": {
       "accuracy": 0.9085714285714286,
       "precision": 0.9096638655462185,
@@ -589,15 +589,15 @@
       "education_level_Master",
       "education_level_PhD"
     ],
-    "scaler_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/scaler_home_loan_data.pkl",
-    "cleaner_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/cleaner_home_loan_data.pkl",
+    "scaler_path": "models_saved/scaler_home_loan_data.pkl",
+    "cleaner_path": "models_saved/cleaner_home_loan_data.pkl",
     "status": "registered"
   },
   {
     "dataset_id": "home_loan_data",
     "model_name": "gradient_boosting",
     "model_version": "gradient_boosting_v5",
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/home_loan_data/gradient_boosting.pkl",
+    "model_file_path": "models_saved/home_loan_data/gradient_boosting.pkl",
     "metrics": {
       "accuracy": 0.9028571428571428,
       "precision": 0.9123931623931624,
@@ -640,15 +640,15 @@
       "education_level_Master",
       "education_level_PhD"
     ],
-    "scaler_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/scaler_home_loan_data.pkl",
-    "cleaner_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/cleaner_home_loan_data.pkl",
+    "scaler_path": "models_saved/scaler_home_loan_data.pkl",
+    "cleaner_path": "models_saved/cleaner_home_loan_data.pkl",
     "status": "registered"
   },
   {
     "dataset_id": "home_loan_data",
     "model_name": "xgboost",
     "model_version": "xgboost_v5",
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/home_loan_data/xgboost.pkl",
+    "model_file_path": "models_saved/home_loan_data/xgboost.pkl",
     "metrics": {
       "accuracy": 0.9,
       "precision": 0.9210526315789473,
@@ -691,15 +691,15 @@
       "education_level_Master",
       "education_level_PhD"
     ],
-    "scaler_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/scaler_home_loan_data.pkl",
-    "cleaner_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/cleaner_home_loan_data.pkl",
+    "scaler_path": "models_saved/scaler_home_loan_data.pkl",
+    "cleaner_path": "models_saved/cleaner_home_loan_data.pkl",
     "status": "registered"
   },
   {
     "dataset_id": "home_loan_data",
     "model_name": "lightgbm",
     "model_version": "lightgbm_v5",
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/home_loan_data/lightgbm.pkl",
+    "model_file_path": "models_saved/home_loan_data/lightgbm.pkl",
     "metrics": {
       "accuracy": 0.9,
       "precision": 0.9173913043478261,
@@ -742,15 +742,15 @@
       "education_level_Master",
       "education_level_PhD"
     ],
-    "scaler_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/scaler_home_loan_data.pkl",
-    "cleaner_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/cleaner_home_loan_data.pkl",
+    "scaler_path": "models_saved/scaler_home_loan_data.pkl",
+    "cleaner_path": "models_saved/cleaner_home_loan_data.pkl",
     "status": "registered"
   },
   {
     "dataset_id": "home_loan_data",
     "model_name": "catboost",
     "model_version": "catboost_v5",
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/home_loan_data/catboost.pkl",
+    "model_file_path": "models_saved/home_loan_data/catboost.pkl",
     "metrics": {
       "accuracy": 0.9114285714285715,
       "precision": 0.9188034188034188,
@@ -794,15 +794,15 @@
       "education_level_Master",
       "education_level_PhD"
     ],
-    "scaler_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/scaler_home_loan_data.pkl",
-    "cleaner_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/cleaner_home_loan_data.pkl",
+    "scaler_path": "models_saved/scaler_home_loan_data.pkl",
+    "cleaner_path": "models_saved/cleaner_home_loan_data.pkl",
     "status": "registered"
   },
   {
     "dataset_id": "home_loan_data",
     "model_name": "svm",
     "model_version": "svm_v5",
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/home_loan_data/svm.pkl",
+    "model_file_path": "models_saved/home_loan_data/svm.pkl",
     "metrics": {
       "accuracy": 0.9157142857142857,
       "precision": 0.928416485900217,
@@ -844,15 +844,15 @@
       "education_level_Master",
       "education_level_PhD"
     ],
-    "scaler_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/scaler_home_loan_data.pkl",
-    "cleaner_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/cleaner_home_loan_data.pkl",
+    "scaler_path": "models_saved/scaler_home_loan_data.pkl",
+    "cleaner_path": "models_saved/cleaner_home_loan_data.pkl",
     "status": "registered"
   },
   {
     "dataset_id": "home_loan_data",
     "model_name": "extra_trees",
     "model_version": "extra_trees_v5",
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/home_loan_data/extra_trees.pkl",
+    "model_file_path": "models_saved/home_loan_data/extra_trees.pkl",
     "metrics": {
       "accuracy": 0.8771428571428571,
       "precision": 0.8665338645418327,
@@ -895,15 +895,15 @@
       "education_level_Master",
       "education_level_PhD"
     ],
-    "scaler_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/scaler_home_loan_data.pkl",
-    "cleaner_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/cleaner_home_loan_data.pkl",
+    "scaler_path": "models_saved/scaler_home_loan_data.pkl",
+    "cleaner_path": "models_saved/cleaner_home_loan_data.pkl",
     "status": "registered"
   },
   {
     "dataset_id": "personal_loan_data",
     "model_name": "logistic_regression",
     "model_version": "logistic_regression_v4",
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/personal_loan_data/logistic_regression.pkl",
+    "model_file_path": "models_saved/personal_loan_data/logistic_regression.pkl",
     "metrics": {
       "accuracy": 0.915,
       "precision": 0.9373776908023483,
@@ -949,15 +949,15 @@
       "loan_grade_D",
       "loan_grade_E"
     ],
-    "scaler_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/scaler_personal_loan_data.pkl",
-    "cleaner_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/cleaner_personal_loan_data.pkl",
+    "scaler_path": "models_saved/scaler_personal_loan_data.pkl",
+    "cleaner_path": "models_saved/cleaner_personal_loan_data.pkl",
     "status": "registered"
   },
   {
     "dataset_id": "personal_loan_data",
     "model_name": "decision_tree",
     "model_version": "decision_tree_v4",
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/personal_loan_data/decision_tree.pkl",
+    "model_file_path": "models_saved/personal_loan_data/decision_tree.pkl",
     "metrics": {
       "accuracy": 0.87875,
       "precision": 0.9114173228346457,
@@ -1003,15 +1003,15 @@
       "loan_grade_D",
       "loan_grade_E"
     ],
-    "scaler_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/scaler_personal_loan_data.pkl",
-    "cleaner_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/cleaner_personal_loan_data.pkl",
+    "scaler_path": "models_saved/scaler_personal_loan_data.pkl",
+    "cleaner_path": "models_saved/cleaner_personal_loan_data.pkl",
     "status": "registered"
   },
   {
     "dataset_id": "personal_loan_data",
     "model_name": "random_forest",
     "model_version": "random_forest_v4",
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/personal_loan_data/random_forest.pkl",
+    "model_file_path": "models_saved/personal_loan_data/random_forest.pkl",
     "metrics": {
       "accuracy": 0.91,
       "precision": 0.9267822736030829,
@@ -1057,15 +1057,15 @@
       "loan_grade_D",
       "loan_grade_E"
     ],
-    "scaler_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/scaler_personal_loan_data.pkl",
-    "cleaner_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/cleaner_personal_loan_data.pkl",
+    "scaler_path": "models_saved/scaler_personal_loan_data.pkl",
+    "cleaner_path": "models_saved/cleaner_personal_loan_data.pkl",
     "status": "registered"
   },
   {
     "dataset_id": "personal_loan_data",
     "model_name": "gradient_boosting",
     "model_version": "gradient_boosting_v4",
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/personal_loan_data/gradient_boosting.pkl",
+    "model_file_path": "models_saved/personal_loan_data/gradient_boosting.pkl",
     "metrics": {
       "accuracy": 0.91125,
       "precision": 0.937007874015748,
@@ -1111,15 +1111,15 @@
       "loan_grade_D",
       "loan_grade_E"
     ],
-    "scaler_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/scaler_personal_loan_data.pkl",
-    "cleaner_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/cleaner_personal_loan_data.pkl",
+    "scaler_path": "models_saved/scaler_personal_loan_data.pkl",
+    "cleaner_path": "models_saved/cleaner_personal_loan_data.pkl",
     "status": "registered"
   },
   {
     "dataset_id": "personal_loan_data",
     "model_name": "xgboost",
     "model_version": "xgboost_v4",
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/personal_loan_data/xgboost.pkl",
+    "model_file_path": "models_saved/personal_loan_data/xgboost.pkl",
     "metrics": {
       "accuracy": 0.90625,
       "precision": 0.9296875,
@@ -1165,15 +1165,15 @@
       "loan_grade_D",
       "loan_grade_E"
     ],
-    "scaler_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/scaler_personal_loan_data.pkl",
-    "cleaner_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/cleaner_personal_loan_data.pkl",
+    "scaler_path": "models_saved/scaler_personal_loan_data.pkl",
+    "cleaner_path": "models_saved/cleaner_personal_loan_data.pkl",
     "status": "registered"
   },
   {
     "dataset_id": "personal_loan_data",
     "model_name": "lightgbm",
     "model_version": "lightgbm_v4",
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/personal_loan_data/lightgbm.pkl",
+    "model_file_path": "models_saved/personal_loan_data/lightgbm.pkl",
     "metrics": {
       "accuracy": 0.90875,
       "precision": 0.9350393700787402,
@@ -1219,15 +1219,15 @@
       "loan_grade_D",
       "loan_grade_E"
     ],
-    "scaler_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/scaler_personal_loan_data.pkl",
-    "cleaner_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/cleaner_personal_loan_data.pkl",
+    "scaler_path": "models_saved/scaler_personal_loan_data.pkl",
+    "cleaner_path": "models_saved/cleaner_personal_loan_data.pkl",
     "status": "registered"
   },
   {
     "dataset_id": "personal_loan_data",
     "model_name": "catboost",
     "model_version": "catboost_v4",
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/personal_loan_data/catboost.pkl",
+    "model_file_path": "models_saved/personal_loan_data/catboost.pkl",
     "metrics": {
       "accuracy": 0.9175,
       "precision": 0.9342359767891683,
@@ -1274,15 +1274,15 @@
       "loan_grade_D",
       "loan_grade_E"
     ],
-    "scaler_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/scaler_personal_loan_data.pkl",
-    "cleaner_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/cleaner_personal_loan_data.pkl",
+    "scaler_path": "models_saved/scaler_personal_loan_data.pkl",
+    "cleaner_path": "models_saved/cleaner_personal_loan_data.pkl",
     "status": "registered"
   },
   {
     "dataset_id": "personal_loan_data",
     "model_name": "svm",
     "model_version": "svm_v4",
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/personal_loan_data/svm.pkl",
+    "model_file_path": "models_saved/personal_loan_data/svm.pkl",
     "metrics": {
       "accuracy": 0.91125,
       "precision": 0.944,
@@ -1327,15 +1327,15 @@
       "loan_grade_D",
       "loan_grade_E"
     ],
-    "scaler_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/scaler_personal_loan_data.pkl",
-    "cleaner_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/cleaner_personal_loan_data.pkl",
+    "scaler_path": "models_saved/scaler_personal_loan_data.pkl",
+    "cleaner_path": "models_saved/cleaner_personal_loan_data.pkl",
     "status": "registered"
   },
   {
     "dataset_id": "personal_loan_data",
     "model_name": "extra_trees",
     "model_version": "extra_trees_v4",
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/personal_loan_data/extra_trees.pkl",
+    "model_file_path": "models_saved/personal_loan_data/extra_trees.pkl",
     "metrics": {
       "accuracy": 0.8925,
       "precision": 0.9117082533589251,
@@ -1381,8 +1381,8 @@
       "loan_grade_D",
       "loan_grade_E"
     ],
-    "scaler_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/scaler_personal_loan_data.pkl",
-    "cleaner_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/cleaner_personal_loan_data.pkl",
+    "scaler_path": "models_saved/scaler_personal_loan_data.pkl",
+    "cleaner_path": "models_saved/cleaner_personal_loan_data.pkl",
     "status": "registered"
   }
 ]

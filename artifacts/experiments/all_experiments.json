@@ -28,7 +28,7 @@
     "cv_std": 0.008233523682232648,
     "training_time": 1.7478,
     "prediction_time": 0.001047,
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/loan_data/logistic_regression.pkl",
+    "model_file_path": "models_saved/loan_data/logistic_regression.pkl",
     "features_used": [
       "age",
       "income",
@@ -85,7 +85,7 @@
     "cv_std": 0.007996785203046523,
     "training_time": 0.976,
     "prediction_time": 0.000743,
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/loan_data/decision_tree.pkl",
+    "model_file_path": "models_saved/loan_data/decision_tree.pkl",
     "features_used": [
       "age",
       "income",
@@ -142,7 +142,7 @@
     "cv_std": 0.01084059141316597,
     "training_time": 1.0435,
     "prediction_time": 0.017009,
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/loan_data/random_forest.pkl",
+    "model_file_path": "models_saved/loan_data/random_forest.pkl",
     "features_used": [
       "age",
       "income",
@@ -199,7 +199,7 @@
     "cv_std": 0.010162418089784611,
     "training_time": 2.464,
     "prediction_time": 0.002734,
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/loan_data/gradient_boosting.pkl",
+    "model_file_path": "models_saved/loan_data/gradient_boosting.pkl",
     "features_used": [
       "age",
       "income",
@@ -256,7 +256,7 @@
     "cv_std": 0.008715346030451,
     "training_time": 0.296,
     "prediction_time": 0.002157,
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/loan_data/xgboost.pkl",
+    "model_file_path": "models_saved/loan_data/xgboost.pkl",
     "features_used": [
       "age",
       "income",
@@ -313,7 +313,7 @@
     "cv_std": 0.009152829550286373,
     "training_time": 3.0245,
     "prediction_time": 0.002268,
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/loan_data/lightgbm.pkl",
+    "model_file_path": "models_saved/loan_data/lightgbm.pkl",
     "features_used": [
       "age",
       "income",
@@ -371,7 +371,7 @@
     "cv_std": 0.00916978350935571,
     "training_time": 0.9597,
     "prediction_time": 0.001548,
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/loan_data/catboost.pkl",
+    "model_file_path": "models_saved/loan_data/catboost.pkl",
     "features_used": [
       "age",
       "income",
@@ -427,7 +427,7 @@
     "cv_std": 0.007905856858871125,
     "training_time": 1.4839,
     "prediction_time": 0.091496,
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/loan_data/svm.pkl",
+    "model_file_path": "models_saved/loan_data/svm.pkl",
     "features_used": [
       "age",
       "income",
@@ -484,7 +484,7 @@
     "cv_std": 0.013952256555535265,
     "training_time": 0.6441,
     "prediction_time": 0.017209,
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/loan_data/extra_trees.pkl",
+    "model_file_path": "models_saved/loan_data/extra_trees.pkl",
     "features_used": [
       "age",
       "income",
@@ -541,7 +541,7 @@
     "cv_std": 0.0046878940247660995,
     "training_time": 0.4833,
     "prediction_time": 0.001536,
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/home_loan_data/logistic_regression.pkl",
+    "model_file_path": "models_saved/home_loan_data/logistic_regression.pkl",
     "features_used": [
       "annual_income",
       "monthly_debt",
@@ -600,7 +600,7 @@
     "cv_std": 0.00752692373580397,
     "training_time": 0.3167,
     "prediction_time": 0.003968,
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/home_loan_data/decision_tree.pkl",
+    "model_file_path": "models_saved/home_loan_data/decision_tree.pkl",
     "features_used": [
       "annual_income",
       "monthly_debt",
@@ -659,7 +659,7 @@
     "cv_std": 0.006354370273358726,
     "training_time": 2.067,
     "prediction_time": 0.029566,
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/home_loan_data/random_forest.pkl",
+    "model_file_path": "models_saved/home_loan_data/random_forest.pkl",
     "features_used": [
       "annual_income",
       "monthly_debt",
@@ -718,7 +718,7 @@
     "cv_std": 0.004439116406910254,
     "training_time": 3.7169,
     "prediction_time": 0.00275,
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/home_loan_data/gradient_boosting.pkl",
+    "model_file_path": "models_saved/home_loan_data/gradient_boosting.pkl",
     "features_used": [
       "annual_income",
       "monthly_debt",
@@ -777,7 +777,7 @@
     "cv_std": 0.004454112525631746,
     "training_time": 0.4434,
     "prediction_time": 0.003334,
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/home_loan_data/xgboost.pkl",
+    "model_file_path": "models_saved/home_loan_data/xgboost.pkl",
     "features_used": [
       "annual_income",
       "monthly_debt",
@@ -836,7 +836,7 @@
     "cv_std": 0.004305867964306383,
     "training_time": 3.8843,
     "prediction_time": 0.004633,
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/home_loan_data/lightgbm.pkl",
+    "model_file_path": "models_saved/home_loan_data/lightgbm.pkl",
     "features_used": [
       "annual_income",
       "monthly_debt",
@@ -896,7 +896,7 @@
     "cv_std": 0.003392058670578766,
     "training_time": 1.5449,
     "prediction_time": 0.003985,
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/home_loan_data/catboost.pkl",
+    "model_file_path": "models_saved/home_loan_data/catboost.pkl",
     "features_used": [
       "annual_income",
       "monthly_debt",
@@ -954,7 +954,7 @@
     "cv_std": 0.005236043936416113,
     "training_time": 1.1861,
     "prediction_time": 0.056717,
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/home_loan_data/svm.pkl",
+    "model_file_path": "models_saved/home_loan_data/svm.pkl",
     "features_used": [
       "annual_income",
       "monthly_debt",
@@ -1013,7 +1013,7 @@
     "cv_std": 0.006515749070881234,
     "training_time": 1.5022,
     "prediction_time": 0.027813,
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/home_loan_data/extra_trees.pkl",
+    "model_file_path": "models_saved/home_loan_data/extra_trees.pkl",
     "features_used": [
       "annual_income",
       "monthly_debt",
@@ -1072,7 +1072,7 @@
     "cv_std": 0.002612170256794668,
     "training_time": 0.2345,
     "prediction_time": 0.000934,
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/personal_loan_data/logistic_regression.pkl",
+    "model_file_path": "models_saved/personal_loan_data/logistic_regression.pkl",
     "features_used": [
       "age",
       "monthly_income",
@@ -1134,7 +1134,7 @@
     "cv_std": 0.010245646858132536,
     "training_time": 0.0689,
     "prediction_time": 0.001537,
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/personal_loan_data/decision_tree.pkl",
+    "model_file_path": "models_saved/personal_loan_data/decision_tree.pkl",
     "features_used": [
       "age",
       "monthly_income",
@@ -1196,7 +1196,7 @@
     "cv_std": 0.0013391352390624846,
     "training_time": 1.4207,
     "prediction_time": 0.027719,
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/personal_loan_data/random_forest.pkl",
+    "model_file_path": "models_saved/personal_loan_data/random_forest.pkl",
     "features_used": [
       "age",
       "monthly_income",
@@ -1258,7 +1258,7 @@
     "cv_std": 0.0035643537631317324,
     "training_time": 4.5289,
     "prediction_time": 0.006592,
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/personal_loan_data/gradient_boosting.pkl",
+    "model_file_path": "models_saved/personal_loan_data/gradient_boosting.pkl",
     "features_used": [
       "age",
       "monthly_income",
@@ -1320,7 +1320,7 @@
     "cv_std": 0.0034487804538086224,
     "training_time": 0.5321,
     "prediction_time": 0.002654,
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/personal_loan_data/xgboost.pkl",
+    "model_file_path": "models_saved/personal_loan_data/xgboost.pkl",
     "features_used": [
       "age",
       "monthly_income",
@@ -1382,7 +1382,7 @@
     "cv_std": 0.003734358311336605,
     "training_time": 3.8297,
     "prediction_time": 0.00288,
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/personal_loan_data/lightgbm.pkl",
+    "model_file_path": "models_saved/personal_loan_data/lightgbm.pkl",
     "features_used": [
       "age",
       "monthly_income",
@@ -1445,7 +1445,7 @@
     "cv_std": 0.0018907772872406915,
     "training_time": 1.0421,
     "prediction_time": 0.004188,
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/personal_loan_data/catboost.pkl",
+    "model_file_path": "models_saved/personal_loan_data/catboost.pkl",
     "features_used": [
       "age",
       "monthly_income",
@@ -1506,7 +1506,7 @@
     "cv_std": 0.0029554552147575655,
     "training_time": 1.2565,
     "prediction_time": 0.05497,
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/personal_loan_data/svm.pkl",
+    "model_file_path": "models_saved/personal_loan_data/svm.pkl",
     "features_used": [
       "age",
       "monthly_income",
@@ -1568,7 +1568,7 @@
     "cv_std": 0.0031970779958983954,
     "training_time": 0.7272,
     "prediction_time": 0.02056,
-    "model_file_path": "/Users/prabhakarkumarjha/Desktop/Capstone_project/models_saved/personal_loan_data/extra_trees.pkl",
+    "model_file_path": "models_saved/personal_loan_data/extra_trees.pkl",
     "features_used": [
       "age",
       "monthly_income",

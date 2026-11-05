@@ -147,15 +147,16 @@ def generate_personal_loan_dataset(num_samples: int = 4000, random_seed: int = 4
     return df
 
 if __name__ == '__main__':
+    project_root = Path(__file__).resolve().parent.parent
     hl_df = generate_home_loan_dataset()
-    hl_out = '/Users/prabhakarkumarjha/Desktop/Capstone_project/dataset/home_loan_data.csv'
+    hl_out = str(project_root / 'dataset' / 'home_loan_data.csv')
     os.makedirs(os.path.dirname(hl_out), exist_ok=True)
     hl_df.to_csv(hl_out, index=False)
     print(f"Generated Home Loan Dataset to {hl_out}")
     print(f"Home Loan Approval Rate: {hl_df['loan_approved'].mean():.2%}")
     
     pl_df = generate_personal_loan_dataset()
-    pl_out = '/Users/prabhakarkumarjha/Desktop/Capstone_project/dataset/personal_loan_data.csv'
+    pl_out = str(project_root / 'dataset' / 'personal_loan_data.csv')
     pl_df.to_csv(pl_out, index=False)
     print(f"Generated Personal Loan Dataset to {pl_out}")
     print(f"Personal Loan Approval Rate: {pl_df['loan_approved'].mean():.2%}")

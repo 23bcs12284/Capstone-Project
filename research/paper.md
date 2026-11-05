@@ -1,10 +1,12 @@
 # Explainable AI for Fair Loan Approval Prediction
 
-**Authors:** Prabhakar Kumar Jha
+**Authors:** Prabhakar Kumar Jha  
 
-**Institution:** Department of Computer Science
+**Institution:** Department of Computer Science  
 
-**Date:** July 2026
+**Date:** July 2026  
+
+> **Empirical Data Bank & JSON Compendium:** All raw JSON metrics, model registry logs, fairness audit JSONs, SHAP feature rankings, and complete benchmark datasets supporting this research are available in [`research/RESEARCH_PAPER_DATA.md`](file:///Users/prabhakarkumarjha/Desktop/Capstone_project/research/RESEARCH_PAPER_DATA.md).
 
 ---
 

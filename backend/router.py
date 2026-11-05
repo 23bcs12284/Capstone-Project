@@ -296,6 +296,9 @@ def get_fairness(dataset_id: str, model_name: str):
             json.dump(audit_res, f, indent=2)
             
         return audit_res
+    except FileNotFoundError as fnf:
+        logger.error(f"Fairness calculation failed - model artifact not found: {fnf}", exc_info=True)
+        raise HTTPException(status_code=500, detail=f"Model artifact not found for dataset '{dataset_id}' and model '{model_name}'. Please verify model files exist.")
     except Exception as e:
         logger.error(f"Fairness on the fly error: {e}", exc_info=True)
         raise HTTPException(status_code=500, detail=str(e))
@@ -395,6 +398,12 @@ def predict(request: PredictRequest):
             "negative_factors": ind_exp.get("negative_factors", []),
             "counterfactual": counterfactual
         }
+    except FileNotFoundError as fnf_err:
+        logger.error(f"Prediction failed - model artifact not found: {fnf_err}", exc_info=True)
+        raise HTTPException(
+            status_code=500,
+            detail=f"Model artifact not found for dataset '{request.dataset_id}' and model '{request.model_name}'. Please verify model files exist in models_saved/."
+        )
     except Exception as e:
         logger.error(f"Predict error: {e}", exc_info=True)
         raise HTTPException(status_code=500, detail=str(e))
